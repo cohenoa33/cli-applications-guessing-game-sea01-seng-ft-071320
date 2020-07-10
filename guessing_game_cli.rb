@@ -5,7 +5,7 @@ def run_guessing_game
   input.chomp
   
   if input =='exit'
-    puts "g"
-  
+    puts "Goodbye!"
+  end
   
 end
