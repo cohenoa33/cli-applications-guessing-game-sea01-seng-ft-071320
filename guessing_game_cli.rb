@@ -1,4 +1,8 @@
 # Code your solution here!
 def run_guessing_game 
-  rand(1..6)
+  number = rand(1..6)
+  puts "Please "
+  input = gets
+  
+  
 end
