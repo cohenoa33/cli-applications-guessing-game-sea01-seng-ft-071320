@@ -6,7 +6,8 @@ def run_guessing_game
   
   if user_input == 'exit'
     puts "Goodbye!"
-  elsif user_input.to_i == 
+  elsif user_input.to_i == number
+    puts 
   end  
   
 end
