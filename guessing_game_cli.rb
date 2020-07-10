@@ -5,7 +5,7 @@ def run_guessing_game
   user_input = gets.chomp
   
   if user_input == 'exit'
-    puts "You guessed the correct number!"
+    puts "Goodbye!"
   end  
   
 end
