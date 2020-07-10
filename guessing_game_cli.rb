@@ -6,10 +6,10 @@ def run_guessing_game
   
   if user_input.to_i == number
      puts "You guessed the correct number!"
-  elsif user_input != number
-    puts "Sorry! The computer guessed #{number}."
   elsif user_input == 'exit'
-    return "Goodbye!"
+    puts "Goodbye!"
+  else 
+    puts "Sorry! The computer guessed #{number}."
   end  
   
 end
